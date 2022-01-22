@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.devjunha.dreamhouse.DreamHouseApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.649 s - in com.devjunha.dreamhouse.DreamHouseApplicationTests
