@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---Variable declarations---*/
+:root{
+    --input-color: #565e6f;
+    --input-border: #CDD9ED;
+    /*--linear-gradient:linear-gradient(90deg, #050C3F -5.08%, rgba(185, 27, 27, 0.918) 105.08%);*/
+    --linear-gradient:linear-gradient(90deg, #050C3F -5.08%, #9A3E3E 105.08%);
+    --font-color: #827B7B;
+}
