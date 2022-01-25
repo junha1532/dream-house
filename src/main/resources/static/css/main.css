@@ -13,3 +13,78 @@
     --linear-gradient:linear-gradient(90deg, #050C3F -5.08%, #9A3E3E 105.08%);
     --font-color: #827B7B;
 }
+
+#div-main-page-top-fixed-frame{
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    white-space: nowrap;
+    font-size: 11px;
+    font-family: 'Nanum Gothic', Arial, sans-serif;
+    border-bottom: #d1d1d1 solid 0.5px;
+}
+
+/* #div-main-page-top-fixed-frame-dummy{
+    width:100vw;
+    height: 37px;
+} */
+
+#div-main-page-top-fixed-frame a{
+    display:inline;
+    font-weight: bold;
+    text-decoration: none;
+    color: #777777;
+}
+
+#div-main-page-top-fixed-frame p{
+    display:inline;
+    margin-left: 5px;
+    color: #777777;
+    font-weight: 300;
+}
+
+
+
+#div-main-page-top-fixed-frame-texts{
+    display: flex;
+    margin: 10px;
+}
+
+#div-main-page-top-fixed-frame-btns{
+    height: 37px;
+    
+}
+
+#div-main-page-top-fixed-frame-btns button{
+    height: 100%;
+    padding:10px;
+    color: #777777;
+    font-weight: 300;
+    /*removing default button styling*/
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#div-main-page-top-fixed-frame-btns button:hover{
+    background-color: #575757;
+    color: white;
+}
+
+#div-main-page-top-fixed-frame-btns button:nth-of-type(1){
+    border-left: #d1d1d1 solid 0.5px;
+}
+
+#div-main-page-top-fixed-frame-btns button:nth-of-type(2){
+    border-left: #d1d1d1 solid 0.5px;
+}
+
+#div-main-page-top-fixed-frame-btns button:nth-of-type(3){
+    border-right: #d1d1d1 solid 0.5px;
+    border-left: #d1d1d1 solid 0.5px;
+}
